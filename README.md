@@ -23,6 +23,7 @@ Developed by: MEENA .S
 RegisterNumber:  212221240028
 */
 ```
+'''
 import pandas as pd
 data = pd.read_csv("Salary.csv")
 data.head()
@@ -46,7 +47,7 @@ mse
 r2 = metrics.r2_score(y_test,y_pred)
 r2
 dt.predict([[5,6]])
-
+'''
 ## Output:
 ## Read Data:
 ![image](https://user-images.githubusercontent.com/94677128/173624720-a30db56a-162d-4acd-a09b-e33dc9ef46b3.png)
